@@ -1,12 +1,12 @@
-package vd.android.networkTransfer.entry;
+package eco.android.networkTransfer.entry;
 
 import android.content.Context;
 
 import com.taobao.weex.WXSDKEngine;
 import com.taobao.weex.common.WXException;
 
-import app.vd.framework.extend.annotation.ModuleEntry;
-import vd.android.networkTransfer.module.AppnetworkTransferModule;
+import app.eco.framework.extend.annotation.ModuleEntry;
+import eco.android.networkTransfer.module.AppnetworkTransferModule;
 
 @ModuleEntry
 public class networkTransferEntry {
@@ -19,7 +19,7 @@ public class networkTransferEntry {
 
         //1、注册weex模块
         try {
-            WXSDKEngine.registerModule("vdNetwork", AppnetworkTransferModule.class);
+            WXSDKEngine.registerModule("ecoNetwork", AppnetworkTransferModule.class);
         } catch (WXException e) {
             e.printStackTrace();
         }

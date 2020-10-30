@@ -1,4 +1,4 @@
-package vd.android.networkTransfer.module.transfer;
+package eco.android.networkTransfer.module.transfer;
 
 import android.content.res.AssetFileDescriptor;
 import android.net.Uri;

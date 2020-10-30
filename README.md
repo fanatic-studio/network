@@ -3,19 +3,19 @@
 ## 安装
 
 ```shell script
-vd plugin install https://github.com/ivde/network
+eco plugin install https://github.com/kjeco/network
 ```
 
 ## 卸载
 
 ```shell script
-vd plugin uninstall https://github.com/ivde/network
+eco plugin uninstall https://github.com/kjeco/network
 ```
 
 ## 引用
 
 ```js
-const network = app.requireModule("vd/network");
+const network = app.requireModule("eco/network");
 ```
 
 ### download(params, callback) 下载

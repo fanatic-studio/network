@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
 */
-package vd.android.networkTransfer.module.transfer;
+package eco.android.networkTransfer.module.transfer;
 
 import org.json.JSONException;
 import org.json.JSONObject;

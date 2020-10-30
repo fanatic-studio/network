@@ -1,6 +1,6 @@
 {
 	"desc": "文件上传、文件下载",
-	"requireFormatName": "vdNetwork",
-	"requireName": "vd/network",
+	"requireFormatName": "ecoNetwork",
+	"requireName": "eco/network",
 	"title": "文件传输"
 }
